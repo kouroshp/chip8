@@ -250,7 +250,7 @@ void op_shift_left(struct chip8 *chip8)
     uint16_t x = (chip8->cpu.opcode & 0x0f00) >> 8;
 
     // set VF to most significant bit of Vx
-    chip8->cpu.V[0xf] = (chip8->cpu.V[x] & 0x8) >> 5;
+    chip8->cpu.V[0xf] = (chip8->cpu.V[x] & 0x80) >> 7;
     chip8->cpu.V[x] = chip8->cpu.V[x] << 1; // shift left by 1
     chip8->cpu.pc += 2;
 }
