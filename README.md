@@ -1,6 +1,6 @@
 # chip8
 
-Another [CHIP8](https://en.wikipedia.org/wiki/CHIP-8) emulator.
+Another [CHIP-8](https://en.wikipedia.org/wiki/CHIP-8) emulator.
 
 ## Building
 ### Requirements
