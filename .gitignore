@@ -1,0 +1,4 @@
+.vscode/
+*.o
+chip8
+*.ch8
