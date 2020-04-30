@@ -28,6 +28,8 @@ int main(int argc, char *argv[])
         printf("There was a problem reading file: %s\n", argv[1]);
         return -1;
     }
+    
+    fclose(file);
 
     // create chip8 emulator
     struct chip8 chip8;
